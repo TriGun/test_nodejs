@@ -1,0 +1,27 @@
+{
+  "apiGateway":{
+    "init": {
+      "host": "localhost",
+      "port": 8081
+    },
+    "transport": "rest",
+    "dataDriver": "redis"
+  },
+  "inCommingWebSocket":{
+    "init": {
+      "host": "localhost",
+      "port": 8080
+    },
+    "transport": "rest",
+    "dataDriver": "redis"
+  },
+  "redis": {
+    "package": "ioredis",
+    "host": "127.0.0.1",
+    "password": null,
+    "port": 6379,
+    "database": 0,
+    "timeout": 100,
+    "checkTimeout": 100
+  }
+}

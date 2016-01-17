@@ -1,0 +1,17 @@
+[
+  {
+  "script": "apps/api.gateway.js",
+  "name": "rest-api-worker-master",
+  "watch": true
+  },
+  {
+    "script": "apps/message.manager.js",
+    "name": "mm-worker-master",
+    "watch": true
+  },
+  {
+    "script": "apps/incoming.worker.js",
+    "name": "ws-worker-master",
+    "watch": true
+  }
+]

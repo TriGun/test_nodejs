@@ -1,0 +1,18 @@
+{
+  "name": "message-manager",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "assasinbox@gmail.com",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.14.1",
+    "config": "^1.17.1",
+    "express": "^4.13.3",
+    "node-resque": "^1.1.3",
+    "ws": "^0.8.1"
+  }
+}
